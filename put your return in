@@ -1,0 +1,61 @@
+put your return in
+
+//string stuff
+StringBuilder(varname).reverse().toString()
+String.charAt(0);
+String.toCharArray()
+array.length
+String.length()
+.substring(incl,excl)
+
+//LL
+Iterator b = list.Iterator();
+//stack
+Stack.push();
+Stack.peek();
+Stack.poll();
+@Override
+public Integer push(Integer integer){
+	
+}
+
+//queue
+.add()
+.remove()
+.peek()
+//double-ended queue
+
+Deque<Integer> stack = new ArrayDeque<Integer>();
+.removeFirst();
+.removeLast();
+.addFirst();
+.addLast();
+
+//priorityqueue (comparator)
+.add()
+.peek()
+.poll()
+public class someComparator extends Comparator<String>{
+	@Override
+	public int compare(String x, String y){
+		return x.length() - y.length(); //minheap
+	}
+}
+OR just do it in new PriorityQueue(size,new Comparator<Integer> (){
+	@Override
+	public int compare(Integer x, Integer y){
+		return x - y; //minheap
+	}
+})
+
+//arraylist
+
+//map
+
+//set
+
+big O notation for datastructures
+hashtable
+heap
+set
+etc.
